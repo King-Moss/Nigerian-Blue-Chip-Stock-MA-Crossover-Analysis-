@@ -62,9 +62,6 @@ Each visualization is professionally styled for clarity and presentation.
 pip install pandas numpy matplotlib seaborn jupyter
 
 📁 Project Structure
-bash
-Copy
-Edit
 Nigerian-Blue-Chip-Stock-MA-Crossover-Analysis/
 │
 ├── Analysis for Dangote Cement PLC.ipynb
