@@ -1,69 +1,66 @@
-📈 Nigerian Blue-Chip Stock MA Crossover Analysis (2020–2025)
-This project evaluates the effectiveness of a Moving Average Crossover Strategy applied to five leading Nigerian companies between 2020 and 2025. It compares the strategy's performance to a simple Buy-and-Hold approach using key metrics and visual analysis.
+# 📈 Nigerian Blue-Chip Stock MA Crossover Analysis (2020–2025)
 
-🏢 Companies Analyzed
-Dangote Cement PLC
+This project applies a **Moving Average Crossover Strategy** to five major Nigerian stocks from 2020 to 2025. The strategy is benchmarked against a **Buy-and-Hold** approach, and performance is evaluated using financial metrics and insightful visualizations.
 
-Seplat Energy PLC
+---
 
-Nestlé Nigeria PLC
+## 🏢 Companies Analyzed
+- **Dangote Cement PLC**
+- **Seplat Energy PLC**
+- **Nestlé Nigeria PLC**
+- **Zenith Bank PLC**
+- **MTN Nigeria**
 
-Zenith Bank PLC
+---
 
-MTN Nigeria
+## 🧠 Strategy Overview
 
-🧠 Strategy Overview
-Moving Averages Used:
-MA10: 10-day Simple Moving Average
+### Moving Averages:
+- **MA10** – 10-day Simple Moving Average  
+- **MA50** – 50-day Simple Moving Average  
 
-MA50: 50-day Simple Moving Average
+### Trading Logic:
+- 📈 **Buy Signal**: When MA10 crosses **above** MA50  
+- 📉 **Sell Signal**: When MA10 crosses **below** MA50  
 
-Trading Logic:
-Buy when MA10 crosses above MA50
+---
 
-Sell when MA10 crosses below MA50
+## 📊 Performance Analysis
 
-📊 Visual Analysis & Metrics
-✅ Performance Visualizations:
-📌 Cumulative Returns (Strategy vs. Buy & Hold)
+### Visuals Included:
+1. **Cumulative Returns** (Strategy vs Buy & Hold)  
+2. **Monthly Returns Distribution** (Histograms with KDE)  
+3. **Drawdowns Over Time** (Max drops from peaks)  
+4. **Performance Metrics Bar Chart**, comparing:
+   - ✅ **Sharpe Ratio**
+   - 📉 **Max Drawdown**
+   - 📊 **Annual Volatility**
 
-📌 Monthly Returns Distribution
+Each visualization is professionally styled for clarity and presentation.
 
-📌 Drawdowns Over Time
+---
 
-📌 Performance Metrics Comparison
+## 📂 Features
+- 📍 Time series plot with price, MA overlays, and buy/sell signals
+- 📉 Daily returns and cumulative returns computation
+- 🧮 Performance evaluation using Sharpe Ratio, Volatility, and Drawdowns
+- 🗃️ Cleaned and formatted stock CSV data
+- 🧼 Missing values handled and numeric conversions applied
 
-Sharpe Ratio
+---
 
-Annualized Volatility
+## 🧰 Technologies & Dependencies
 
-Maximum Drawdown
+- `pandas`  
+- `numpy`  
+- `matplotlib`  
+- `seaborn`  
+- `jupyter` or compatible Python IDE
 
-📁 Additional Features:
-Interactive plots generated using matplotlib and seaborn
-
-Cleaned and preprocessed stock data
-
-Buy/Sell signal annotations
-
-Daily and cumulative return calculations
-
-🔧 Technologies & Dependencies
-pandas
-
-numpy
-
-matplotlib
-
-seaborn
-
-jupyter (or any compatible Python IDE)
-
-To install dependencies:
-bash
-Copy
-Edit
+### Installation
+```bash
 pip install pandas numpy matplotlib seaborn jupyter
+
 📁 Project Structure
 bash
 Copy
@@ -75,9 +72,9 @@ Nigerian-Blue-Chip-Stock-MA-Crossover-Analysis/
 ├── Analysis for Nestlé Nigeria PLC.ipynb
 ├── Analysis for Seplat Energy PLC.ipynb
 ├── Analysis for Zenith Bank PLC.ipynb
+├── strategy_performance_analysis.png
 └── README.md
-🙋‍♂️ Author
+🧑‍💼 Author
 Moses Udofia
-Data and Financial Markets Enthusiast
-📬 Feel free to fork this repo, give a ⭐ if you find it helpful, and reach out for collaboration or feedback.
-
+Finance & Data Analysis Enthusiast
+📬 Feel free to fork this repo, ⭐ it if you find it useful, and connect for collaboration or discussion!
